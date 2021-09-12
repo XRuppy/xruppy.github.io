@@ -1,37 +1,45 @@
+
 ---
 layout: page
-title: About the Theme
-tags: [about, Jekyll, theme, moon]
-date: 2016-03-21
+title: Sobre mí
+tags: [about, Jekyll, xruppy]
+date: 2021-09-12
 comments: false
 ---
-    
-<center><a href="http://taylantatli.github.io/Moon"><b>Moon</b></a> is a minimal, one column jekyll theme.</center>
 
-## Features
-* Minimal, you can focus on your content
-* Responsive
-* Disqus integration
-* Syntax highlighting
-* Optional post image
-* Social icons
-* Page for sharing projects
-* Optional background image
-* Simple navigation menu
-* MathJax support
+Mi nombre es David (XRuppy), y me defino como una **persona responsable, puntual, pulido, ordenado y que le gusta aprender y estar al día en lo que ha informática se refiere**. Actualmente, sigo ampliando conocimientos **cursando ASIR con Ciberseguridad** en el **Instituto Francesc Vidal i Barraquer**. En cuanto a temas informáticos **me gusta probar cualquier sistema operativo ya sea móvil o de escritorio, nuevas tecnologías y lenguajes de programación.** 
 
-## Preview
+## Titulaciones
+* Educación Secundaria Obligatoria (ESO).
+* CFGM Sistemas microinformaticos y redes (SMR).
+* Curso de acceso a Grado Superior (CAS).
+* CFGS Desarrollo de Aplicaciones Multiplataforma.
+* CFGS Administrador de Sistemas y Redes con Ciberseguridad.
 
-{% capture images %}
-    https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png
-    https://cloud.githubusercontent.com/assets/754514/14509716/61ac6c8e-01d6-11e6-879f-8308883de790.png
-{% endcapture %}
-{% include gallery images=images caption="Screenshots of Moon Theme" cols=2 %}
+## Certificaciones
+* Microsoft Office Specialist.
+* CCNA Routing and Switching: Introducción a redes.
 
-See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub.
+## Lenguajes de programación utilizados
+* Java
+* HTML5
+* CSS
+* Python
+* Dart (Flutter)
 
-## Getting Started
+## Experiencia
+Mi experencia actualmente en el mundo laboral es el siguiente: 
 
-To learn how to install and use this theme check out the [Setup Guide](http://taylantatli.me/Moon/moon-theme/) for more information.
-      
-[Install Moon](https://github.com/TaylanTatli/Moon){: .btn}
+ - FCT como técnico en sistemas y redes: 
+     - Resolución de incidencias.
+     - Preparación de dispositivos.
+     - Mantenimiento de dispositivos.
+     - Instalación de dispositivos.
+ - FCT como desarrollador de aplicaciones.
+     - Desarrollo desde 0 de una aplicación para Android.
+- FCT como Técnico administrador en sistemas y redes.
+    - Preparación de manuales de usuario.
+    - Preparación de dispositivos.
+    - Desarrollo desde 0 de una aplicación multiplataforma con SDK Flutter.
+
+En cuanto a otro tipo de experiencia la podrás encontrar en mis proyectos de GitHub/GitLab.

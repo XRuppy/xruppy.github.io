@@ -1,0 +1,17 @@
+current directory: C:/Users/david/Documents/GitHub/xruppy.github.io/vendor/bundle/ruby/3.0.0/gems/sdbm-1.0.0/ext/sdbm
+C:/Ruby30-x64/bin/ruby.exe -I C:/Ruby30-x64/lib/ruby/3.0.0 -r ./siteconf20210912-5852-hizfwa.rb extconf.rb
+creating Makefile
+
+current directory: C:/Users/david/Documents/GitHub/xruppy.github.io/vendor/bundle/ruby/3.0.0/gems/sdbm-1.0.0/ext/sdbm
+make DESTDIR\= clean
+
+current directory: C:/Users/david/Documents/GitHub/xruppy.github.io/vendor/bundle/ruby/3.0.0/gems/sdbm-1.0.0/ext/sdbm
+make DESTDIR\=
+generating sdbm-x64-mingw32.def
+compiling _sdbm.c
+compiling init.c
+linking shared-object sdbm.so
+
+current directory: C:/Users/david/Documents/GitHub/xruppy.github.io/vendor/bundle/ruby/3.0.0/gems/sdbm-1.0.0/ext/sdbm
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 sdbm.so ./.gem.20210912-5852-vdtf9n
