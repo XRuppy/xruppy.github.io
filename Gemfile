@@ -9,3 +9,4 @@ gem "kramdown-parser-gfm"
 gem "i18n"
 gem "sdbm"
 gem "webrick"
+gem 'wdm'

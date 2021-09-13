@@ -1,0 +1,102 @@
+I"B<p>Aplicación desarrollada para la empresa <strong>Manusa</strong> con el <strong>SDK Flutter de Google</strong> para obtener mayor compatibilidad con <strong>dispositivos móviles y en la Web</strong>. Esta aplicación permite mediante un formulario previo <strong>crear el etiquetaje con código QR para ser descargado en formato PDF y en A4.</strong></p>
+
+<h1 id="uso-de-la-aplicación-y-vista-previa">Uso de la aplicación y vista previa</h1>
+<h2 id="pantalla-principal">Pantalla principal</h2>
+<p><img src="https://raw.githubusercontent.com/XRuppy/QR_Core/63b5c892ac3fd83e0dcefbacae2c625df62dd09a/Readme_Resource/Main.PNG" alt="Pantalla principal" title="Pantalla principal" /></p>
+
+<p>Esta es la pantalla principal de la web. Para poder continuar presione sobre la opción <strong><em>GENERAR ETIQUETAS.</em></strong></p>
+
+<h2 id="pantalla-del-formulario">Pantalla del formulario</h2>
+
+<p><img src="https://raw.githubusercontent.com/XRuppy/QR_Core/main/Readme_Resource/Form.PNG" alt="Formulario" title="Formulario" /></p>
+
+<p>En la siguiente pantalla deberá rellenar los campos. En la sección <strong>DEFINIR DATOS DE LA ETIQUETA</strong> introduciremos el número de teléfono e identificador de puerta. También pondremos la posición por la que queremos comenzar a imprimir. Tendremos un botón para poder subo la imagen del logo, es <strong>recomendable que el tamaño de la imagen no sea elevado.</strong></p>
+
+<p>En la siguiente sección estableceremos el numero inicial y final del rango con el número de copias por cada etiqueta. Si son diferentes rangos tendremos el botón de <strong>AÑADIR</strong> más rangos. Una vez terminado le daremos a <strong>DESCARGAR PDF</strong> que tardará más o menos dependiendo del tamaño de la imagen del logo.</p>
+
+<h3 id="modificaciones">Modificaciones</h3>
+
+<p>Tras la petición de Manusa esta sección sufre la modificación de <strong>centrar su contenido</strong>. También ha sido <strong>remplazado el campo de texto de la posición por un GridView con 27 botones</strong>, uno por etiqueta que cuenta la hoja de esta manera es más visual para el usuario al elegir desde donde empieza la impresión en la hoja. Para finalizar con las modificaciones han sido <strong>añadidos textos de ayuda</strong> para el usuario.</p>
+
+<p><img src="https://raw.githubusercontent.com/XRuppy/QR_Core/main/Readme_Resource/Formulario_Mod.PNG" alt="FormularioMod" title="FormularioMod" /></p>
+
+<h2 id="pdf-generado">PDF generado</h2>
+
+<p><img src="https://raw.githubusercontent.com/XRuppy/QR_Core/main/Readme_Resource/Etiquetas_Descarga.PNG" alt="PDF generado con etiquetas" title="PDF generado con etiquetas" /></p>
+
+<p>Como se puede ver en la imagen tenemos el PDF con la cantidad de etiquetas y en su rango como le habíamos establecido en la imagen anterior.</p>
+
+<h1 id="recursos-y-software-utilizado">Recursos y software utilizado</h1>
+<h2 id="dependencias">Dependencias</h2>
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="s">&lt;dependencies</span><span class="pi">:</span>
+    <span class="na">flutter</span><span class="pi">:</span>
+    <span class="na">sdk</span><span class="pi">:</span> <span class="s">flutter</span>
+    <span class="na">flutter_localizations</span><span class="pi">:</span>
+     <span class="na">sdk</span><span class="pi">:</span> <span class="s">flutter</span>
+    <span class="na">cupertino_icons</span><span class="pi">:</span> <span class="s">^0.1.2</span>
+    <span class="na">fluttertoast</span><span class="pi">:</span> <span class="s">^8.0.7</span>
+    <span class="na">path_provider</span><span class="pi">:</span> <span class="s">^2.0.2</span>
+    <span class="na">path_provider_platform_interface</span><span class="pi">:</span> <span class="s">^2.0.1</span>
+    <span class="na">universal_html</span><span class="pi">:</span> <span class="s">^2.0.8</span>
+    <span class="na">barcode_scan</span><span class="pi">:</span> <span class="s">^3.0.1</span>
+    <span class="na">qr_flutter</span><span class="pi">:</span> <span class="s">^4.0.0</span>
+    <span class="na">pdf</span><span class="pi">:</span> <span class="s">^3.4.2</span>
+    <span class="na">open_file</span><span class="pi">:</span> <span class="s">^3.2.1</span>
+    <span class="na">file_picker</span><span class="pi">:</span> <span class="s">^3.0.3</span>
+   <span class="na">plugin_platform_interface</span><span class="pi">:</span> <span class="s">^2.0.1</span>
+   <span class="na">intl</span><span class="pi">:</span> <span class="s">^0.17.0&gt;</span>
+</code></pre></div></div>
+
+<h2 id="software-utilizado">Software utilizado</h2>
+<ul>
+  <li>Android Studio</li>
+  <li>Microsoft Edge (Versión Chromium)</li>
+  <li>Android 10</li>
+</ul>
+
+<h2 id="otros-recursos">Otros recursos</h2>
+<h3 id="fuentes">Fuentes</h3>
+<p>La fuente principal es Product Sans. Los ficheros <em>.ttf</em> están ubicados en la <strong>carpeta Fonts.</strong></p>
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="na">fonts</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="na">family</span><span class="pi">:</span> <span class="s">Product Sans</span>
+      <span class="na">fonts</span><span class="pi">:</span>
+        <span class="pi">-</span> <span class="na">asset</span><span class="pi">:</span> <span class="s">fonts/Product-Sans-Regular.ttf</span>
+        <span class="pi">-</span> <span class="na">asset</span><span class="pi">:</span> <span class="s">fonts/Product-Sans-Bold-Italic.ttf</span>
+        <span class="pi">-</span> <span class="na">asset</span><span class="pi">:</span> <span class="s">fonts/Product-Sans-Italic.ttf</span>
+        <span class="pi">-</span> <span class="na">asset</span><span class="pi">:</span> <span class="s">fonts/Product-Sans-Bold.ttf</span>
+</code></pre></div></div>
+<h3 id="assets">Assets</h3>
+
+<p>Logos de Manusa y CE. Las imágenes están ubicados en la <strong>carpeta Assets.</strong></p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">flutter</span><span class="pi">:</span>
+  <span class="na">uses-material-design</span><span class="pi">:</span> <span class="no">true</span>
+  <span class="na">assets</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="s">assets/logo_manusa.png</span>
+    <span class="pi">-</span> <span class="s">assets/logo_manusa_little.png</span>
+    <span class="pi">-</span> <span class="s">assets/ce.png</span>
+</code></pre></div></div>
+<h3 id="idiomas">Idiomas</h3>
+<p>Lo idiomas son los siguientes:</p>
+<ul>
+  <li>Inglés</li>
+  <li>Castellano</li>
+  <li>Francés</li>
+  <li>Portugués</li>
+</ul>
+
+<p>Los ficheros <em>.json</em> están ubicados en la <strong>carpeta i18n</strong></p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="s">&lt;flutter</span><span class="pi">:</span>
+  <span class="na">uses-material-design</span><span class="pi">:</span> <span class="no">true</span>
+  <span class="na">assets</span><span class="pi">:</span>
+    <span class="pi">-</span> <span class="s">i18n/en.json</span> <span class="c1">#Inglés</span>
+    <span class="pi">-</span> <span class="s">i18n/es.json</span> <span class="c1">#Castellano</span>
+    <span class="pi">-</span> <span class="s">i18n/fr.json</span> <span class="c1">#Francés</span>
+    <span class="pi">-</span> <span class="s">i18n/pt.json&gt;</span> <span class="c1">#Portugués</span>
+</code></pre></div></div>
+
+<h1 id="repositorio-del-proyecto">Repositorio del proyecto</h1>
+
+<p><a href="https://github.com/XRuppy/QR_Core">Enlace al repositorio de GitHub</a></p>
+:ET
