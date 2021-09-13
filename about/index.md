@@ -34,7 +34,7 @@ Mi nombre es David (XRuppy), y me defino como una **persona responsable, puntual
 * IntelliJ IDEA
 * Sublime Text
 
-## Programas utilizados
+## Sistemas operativos utilizados
 * Microsoft Windows (Versiones XP, 7, 8/8.1, 10 y 11).
 * Apple macOS (Versiones posteriores a Mavericks).
 * Linux.
