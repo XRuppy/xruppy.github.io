@@ -6,7 +6,7 @@ date: 2021-09-12
 comments: false
 ---
 
-Mi nombre es David (XRuppy), y me defino como una **persona responsable, puntual, pulido, ordenado y que le gusta aprender y estar al día en lo que ha informática se refiere**. Actualmente, sigo ampliando conocimientos **cursando ASIR con Ciberseguridad** en el **Instituto Francesc Vidal i Barraquer**. En cuanto a temas informáticos **me gusta probar cualquier sistema operativo ya sea móvil o de escritorio, nuevas tecnologías y lenguajes de programación.** 
+Mi nombre es David (XRuppy), y me defino como una **persona responsable, puntual, pulido, ordenado y que le gusta aprender y estar al día en lo que a informática se refiere**. Actualmente, sigo ampliando conocimientos **cursando ASIR con Ciberseguridad** en el **Instituto Francesc Vidal i Barraquer**. En cuanto a temas informáticos **me gusta probar cualquier sistema operativo ya sea móvil o de escritorio, nuevas tecnologías y lenguajes de programación.** 
 
 ## Titulaciones
 * Educación Secundaria Obligatoria (ESO).
